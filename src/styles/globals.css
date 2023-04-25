@@ -266,10 +266,20 @@ padding-bottom: 8px;
   max-width: 64px;
 }
 .slick-slider{
-      /* width: 1460px; */
-        height: 471px;
-        margin-left: 230px;
-        margin-right: 230px;
+  margin: auto;
+  /* max-width: 1460px; */
         
+}
+.slider-parent{
+  margin: auto;
+  max-width: 1460px;
+  display: block;
+
+}
+
+.slider-items{
+  margin: 0 24px;
+  max-width: 1060px;
+    height: 471px;
 }
 
