@@ -12,14 +12,13 @@ import "slick-carousel/slick/slick-theme.css";
 export default function Home() {
   const PrevArrow = (props) => (
     <div {...props}>
-
-      <img src="/landingPage/leftArrow.png" alt="" />
+      <img src="/landingPage/leftArrow.png" alt="" className='slick-prev'/>
     </div>
   );
 
   const NextArrow = (props) => (
     <div {...props}>
-      <img src="/landingPage/rightArrow.png" alt="" className='slickArrows' />
+      <img src="/landingPage/rightArrow.png" alt="" className='slick-next'/>
     </div>
   );
 
@@ -86,18 +85,15 @@ export default function Home() {
           <h1 className='section3_Heading mt-[164px]'>
             why choose spare village
           </h1>
-          <div className="   bg-white">
+          <div className="slider-parent my-[80px]   bg-white">
             <Slider {...settings} className='bg-white'>
 
-              {/* 
+
               <div>
-                <h3 className='slider-items mr-[74px]'>Slide 4</h3>
-              </div> */}
-              <div>
-                <h3 className=''>Slide 1</h3>
+                <h3 className='slider-items'>Slide 1</h3>
               </div>
               <div>
-                <h3>Slide 2</h3>
+                <h3 className='slider-items'>Slide 2</h3>
               </div>
             </Slider>
           </div>
