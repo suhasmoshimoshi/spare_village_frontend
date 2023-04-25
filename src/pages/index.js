@@ -12,13 +12,13 @@ import "slick-carousel/slick/slick-theme.css";
 export default function Home() {
   const PrevArrow = (props) => (
     <div {...props}>
-      <img src="/landingPage/leftArrow.png" alt="" />
+      <img src="/landingPage/leftArrow.png" alt="" className='slick-prev'/>
     </div>
   );
 
   const NextArrow = (props) => (
     <div {...props}>
-      <img src="/landingPage/rightArrow.png" alt="" />
+      <img src="/landingPage/rightArrow.png" alt="" className='slick-next'/>
     </div>
   );
 

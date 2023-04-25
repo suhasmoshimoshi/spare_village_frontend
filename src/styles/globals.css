@@ -261,24 +261,34 @@ padding-bottom: 8px;
 .slick-next:before {
   content: none !important;
 }
+.slick-prev{
+  max-width: 64px !important;
+  height: 64px !important;
+  width: unset !important;
+}
+.slick-next{
+  max-width: 64px !important;
+  height: 64px !important;
+  width: unset !important;
+}
 .slickArrows{
   height: 64px;
   max-width: 64px;
 }
 .slick-slider{
   margin: auto;
-  /* max-width: 1460px; */
+  max-width: 1460px;
         
 }
 .slider-parent{
   margin: auto;
-  max-width: 1460px;
+  max-width: 1120px;
   display: block;
 
 }
 
 .slider-items{
-  margin: 0 24px;
+  margin: auto;
   max-width: 1060px;
     height: 471px;
 }
